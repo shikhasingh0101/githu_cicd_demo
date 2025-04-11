@@ -3,7 +3,7 @@ name: Feature Cicd Development
 on:
   push:
     branches:
-      - 'feature/*'
+      - feature
 
 jobs:
   ci:
@@ -16,3 +16,4 @@ jobs:
 
       - name: deploy
         run: echo "deploying on the feature branch"
+
